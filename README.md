@@ -10,7 +10,7 @@
 ## 📌 As Seen On YouTube
 
 📺 **Watch Full Tutorial Video**  
-👉 [Click Here to Watch](https://youtube.com/YOUR_VIDEO_LINK)
+👉 [Click Here to Watch](https://youtu.be/y69ahzFg5FE?si=7-zMIzhuxYiHJN5W)
 
 ---
 
