@@ -1,48 +1,88 @@
 # 🛰️ IP Address Tracker using Python
 
-🎯 Track the **real-world location** of any public IP address using Python.  
-🚨 For **educational purposes only** — learn how geolocation works and how to protect yourself!
+> 🎯 Track the **real-world location** of any public IP address using Python  
+> 🚨 For **educational purposes only** — learn how geolocation works and how to protect yourself!
 
+---
 
-![Screenshot](./screenshot.png)
+![screenshot](./screenshot.png)
+
+## 📌 As Seen On YouTube
+
+📺 **Watch Full Tutorial Video**  
+👉 [Click Here to Watch](https://youtube.com/YOUR_VIDEO_LINK)
+
+---
 
 ## 🧠 What This Project Does
 
-This project allows you to:
+This Python tool allows you to:
 
-🧭 Get detailed location data (City, Region, Country, Coordinates)
-🗺️ Generate an interactive map with the target’s location
-🔐 Learn how IP tracking works & how to protect against it
+- 📍 Get IP geolocation info (City, Region, Country, Coordinates)
+- 🗺️ Generate an interactive map of the IP location
+- 🧠 Learn how IP tracking works so you can defend yourself
 
-Built using:  
-`Python`, `requests`, `folium`, and the `ipapi.co` geolocation API
+It uses:
 
+- `ipapi.co` (free IP geolocation API)
+- `requests` for API calls
+- `folium` to generate a live map
 
-## 📦 Requirements
+---
 
-Make sure you have Python 3 installed, then install dependencies:
+## 🛠️ Requirements
+
+You must have **Python 3** installed.  
+Then install dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+Or manually:
 
 ```bash
 pip install requests folium
+```
 
-🚀 How to Use
+---
 
-1. Clone the repository:
-git clone https://github.com/YOUR_USERNAME/ip-address-tracker.git
-cd ip-address-tracker
+## 🚀 How to Use
 
-2. Run the tool:
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/ACW360/IP_Tracker.git
+cd IP_Tracker
+```
+
+2. **Run the script:**
+
+```bash
 python ip_tracker.py
+```
 
-3. Enter the target IP address when prompted.
+3. **Enter the target IP address** when prompted.
 
-4. The tool will:
-Show geolocation info in the terminal
+4. ✅ The script will display geolocation info and generate a map as `ip_location_map.html`.
 
-Save an interactive map as ip_location_map.html
+---
 
-🧪 Sample Output
+## 📂 Files Included
 
+| File | Description |
+|------|-------------|
+| `ip_tracker.py` | Main Python script |
+| `requirements.txt` | Required Python libraries |
+| `README.md` | Project documentation |
+| `ip_location_map.html` | Map file (generated) |
+| `screenshot.png` | (Optional) Screenshot preview |
+
+---
+
+## 💡 Sample Output
+
+```
 --- IP Geolocation Info ---
 IP Address: 8.8.8.8
 City: Mountain View
@@ -52,6 +92,33 @@ Latitude: 37.386
 Longitude: -122.084
 
 [+] Map has been saved as ip_location_map.html
+```
 
-📌 Watch the Full Tutorial:
-👉 Click here to watch on YouTube
+---
+
+## 🛡️ How to Protect Yourself from IP Tracking
+
+- 🔒 Use a VPN
+- 🛑 Don’t click on suspicious links
+- 🔐 Avoid insecure websites
+- 🧅 Use the Tor Browser for anonymity
+
+---
+
+## ⚠️ Disclaimer
+
+> This tool is for **educational and ethical purposes only**.  
+> Do not use it to track people without their **explicit consent**.  
+> The developer is **not responsible** for any misuse.
+
+---
+
+## ⭐ Support This Project
+
+If this helped you, please **give it a ⭐ on GitHub** and **share the YouTube video** to help others learn!
+
+---
+
+## 🙌 Credits
+
+Created with ❤️ by [ACW360](https://github.com/ACW360)
